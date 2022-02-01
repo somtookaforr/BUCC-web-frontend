@@ -1,0 +1,234 @@
+div.index{
+    overflow-x: hidden !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1Images{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.sec2{
+    background-image: url(../Images/Element.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 6rem;
+}
+
+.sec2Text{
+    font-size: 40px;
+    font-family:'Raleway', sans-serif;
+}
+
+.sec2Text span{
+    color: #1F5FBC;
+}
+
+.sec2Text p{
+    color:#20448F;
+    font-weight: 700;
+}
+
+.sec2 img{
+    width: 100vw;
+    padding-top: 1rem;
+}
+
+.rightCol{
+    padding: 3rem 3rem 2rem 3rem;
+}
+
+.sec2Btn{
+    border-radius: 50px;
+    background-image: linear-gradient(#0C397B,#1F5FBC);
+    padding: 1rem;
+}
+
+.sec3{
+    margin-top: 4rem;
+}
+
+
+.sec3 .carousel{
+    font-family: 'Raleway', sans-serif;
+    background-color: #0C397B;
+    background-image: none;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 100px;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.sec3 .carousel-inner{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family:'Raleway', sans-serif;
+}
+
+.sec3 img{
+    margin-left: 3rem;
+    border: white solid;
+    border-radius: 100px;
+}
+
+.lowSec3{
+    background-color: #1F5FBC;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 3rem;
+    height: 250px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 3rem 3rem 0rem 3rem;
+}
+
+.lowSec3 span{
+    font-size: 20px;
+}
+
+.sec3Btn{
+    border-radius: 50px;
+    background-color: #EFB411;
+    padding: 1rem;
+}
+
+.alumniName{
+    color: #FFC000;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.alumniYear{
+    font-size: 20px;
+}
+
+
+.sec4{
+    padding-bottom: 33rem;
+}
+
+.outerSec4{
+    background-image: url(../Images/Path31.png);
+}
+
+.innerSec4{
+    background-image: url(../Images/Path3.png);
+    height: 400px;
+    margin-top: 8rem;
+}
+
+.studentImg img{
+    background-image: url(../Images/Element2.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;  
+    padding-bottom: 3rem;
+}
+
+.sec4 img{
+    width: 100vw;
+    padding-top: 1rem;
+}
+
+.sec4Btn{
+    background-image: linear-gradient(#EFB411,#FF9500);
+    border-radius: 50px;
+    color: white;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
+}
+
+.sec4 h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.sec4 .buildText{
+    color: #1F5FBC;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .sec2{
+        background-image: url(../Images/Element.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+
+    .sec2 img{
+        width: 50vw;
+    }
+    
+    .rightCol{
+        text-align: left;
+    }
+    
+    .sec3 .carousel-inner{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 18px;
+    }
+
+    .lowSec3{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .lowSec3 span{
+        font-size: 30px;
+    }
+
+    .sec4{
+        padding-bottom: 10rem;
+    }
+    
+    .innerSec4{
+        height: 400px;
+    }
+    
+    .studentImg img{ 
+        padding-bottom: 3rem;
+        background-size: contain;
+    }
+    
+    .sec4 img{
+        width: 50vw;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .sec3 .carousel-inner{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .lowSec3{
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+    
+    .innerSec4{
+        height: 650px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .sec3 .carousel-inner{
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+
+    .innerSec4{
+        height: 800px;
+    }
+}
