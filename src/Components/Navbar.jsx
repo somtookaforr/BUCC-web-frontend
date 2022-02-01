@@ -21,10 +21,10 @@ const Navbar = () => {
           <NavLink to="/" className="nav-link active"  aria-current="page" href="#">Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/" className="nav-link active" aria-current="page" href="#">Programs</NavLink>
+          <NavLink to="/programs" className="nav-link active" aria-current="page" href="#">Programs</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/" className="nav-link" href="#">Events</NavLink>
+          <NavLink to="/events" className="nav-link" href="#">Events</NavLink>
         </li>
         <li className="nav-item">
           <NavLink to="/" className="nav-link">About Us</NavLink>
