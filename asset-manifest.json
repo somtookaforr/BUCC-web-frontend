@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BUCC-web-frontend-Wavist/static/css/main.e1a057ef.css",
-    "main.js": "/BUCC-web-frontend-Wavist/static/js/main.92c0a3fa.js",
+    "main.js": "/BUCC-web-frontend-Wavist/static/js/main.b62ee911.js",
     "static/js/787.238142d3.chunk.js": "/BUCC-web-frontend-Wavist/static/js/787.238142d3.chunk.js",
     "static/media/google.png": "/BUCC-web-frontend-Wavist/static/media/google.d79c861cab69ff967736.png",
     "static/media/index-header.png": "/BUCC-web-frontend-Wavist/static/media/index-header.10565017b1a7516712bf.png",
@@ -19,11 +19,11 @@
     "static/media/img1.png": "/BUCC-web-frontend-Wavist/static/media/img1.6acc709e24b4824d5c32.png",
     "index.html": "/BUCC-web-frontend-Wavist/index.html",
     "main.e1a057ef.css.map": "/BUCC-web-frontend-Wavist/static/css/main.e1a057ef.css.map",
-    "main.92c0a3fa.js.map": "/BUCC-web-frontend-Wavist/static/js/main.92c0a3fa.js.map",
+    "main.b62ee911.js.map": "/BUCC-web-frontend-Wavist/static/js/main.b62ee911.js.map",
     "787.238142d3.chunk.js.map": "/BUCC-web-frontend-Wavist/static/js/787.238142d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1a057ef.css",
-    "static/js/main.92c0a3fa.js"
+    "static/js/main.b62ee911.js"
   ]
 }
