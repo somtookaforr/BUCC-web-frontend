@@ -7,12 +7,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL} >
       <div className="App">
         {/* Call them here */}
         <Switch>
           <Route exact path="/" component={Index} />
-          <Route exact path="/events" component={Events} />
+          <Route path="/events" component={Events} />
         </Switch>
       </div>
     </Router>
