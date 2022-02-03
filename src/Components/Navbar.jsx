@@ -5,6 +5,7 @@ import buccText from "../Images/bucc-text.png";
 
 const Navbar = () => {
   return (
+
     <nav className="navbar navbar-expand-lg navbar-light text-primary bg-white">
       <div className="container-fluid">
         <NavLink exact to="/" className="navbar-brand" href="#">
@@ -35,12 +36,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink
-                to="/"
-                className="nav-link active"
-                aria-current="page"
-                href="#"
-              >
+              <NavLink to="/programs" className="nav-link active" aria-current="page" href="#">
                 Programs
               </NavLink>
             </li>
