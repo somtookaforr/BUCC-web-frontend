@@ -3,7 +3,6 @@ import Events from "./Pages/Events";
 import ProgramsPage from './Pages/ProgramsPage'
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
 // Import your individual pages here
 
 function App() {
