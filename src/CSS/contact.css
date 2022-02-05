@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
+.contact_us_image{
+	border-top-left-radius: 20px;
+	border-radius: 0%;
+	height: 400px;
+	width: 100%;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.contact_text{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%, -50%);
+}
+@media screen and (max-width:500px){
+    .contact_text{
+        font-size:40px !important;
+	overflow: hidden;
+	white-space: nowrap;
+    }  
+}
+.contact_div{
+	display: flex;
+	justify-content: center;
+}
+.contact_paragraph p{
+	float: left;
+	margin-top: 1rem;
+}
+.p1{
+	font-weight:bolder;
+	font-size: 30px;
+	color:#20448F;
+}
+.contactForm input, textarea{
+	display: block;
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 45px;
+	width: 100%;
+	border: 1px solid black;
+	-webkit-box-sizing: border-box; 
+  	-moz-box-sizing: border-box;  
+  	box-sizing: border-box;       
+}
+.contactForm textarea{
+	height: 200px;
+}
+.contact_btn{
+	border-radius: 50px;
+    	padding: 1rem;
+	border: none;
+	margin-bottom: 10px;
+	width: 100%;
+	color: white;
+}
