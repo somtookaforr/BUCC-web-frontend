@@ -11,7 +11,7 @@ const Contact = () => {
 			<body>
 				<div className='contact_head'>
 					<img alt="contact_us" className="contact_us_image" src={contactus} />
-					<p className="contact_text">Contact Us</p>
+					<h1 className="contact_text">Contact Us</h1>
 				</div>
 
 				<div className='contact_div'>

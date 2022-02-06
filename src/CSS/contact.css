@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
+body{
+	background-color:lightgrey;
+}
+.contact_head{
+	position: relative;
+	text-align: center;
+}
 .contact_us_image{
-	border-top-left-radius: 20px;
-	border-radius: 0%;
-	height: 400px;
-	width: 100%;
-	border-bottom-left-radius: 70px;
-	border-bottom-right-radius: 70px;
+	height: 75vh;
+	width:100%;
+	border-radius: 0px 0px 80px 80px;
 }
 .contact_text{
 	position: absolute;
-	top: 60%;
+	top: 25%;
 	left: 50%;
-	font-size: 50px;
+	transform: translate(-50%, 50%);
+	font-weight: 600;
+	white-space: nowrap;
+	font-size: 72px;
 	color: white;
-	transform: translate(-50%, -50%);
 }
 @media screen and (max-width:500px){
     .contact_text{
-        font-size:40px !important;
-	overflow: hidden;
+        font-size:50px;
 	white-space: nowrap;
-    }  
+    }
 }
 .contact_div{
 	display: flex;
@@ -35,13 +40,16 @@
 	font-size: 30px;
 	color:#20448F;
 }
+form{
+	padding: 8%;
+}
 .contactForm input, textarea{
 	display: block;
 	padding: 1rem;
 	margin-bottom: 2rem;
 	border-radius: 45px;
 	width: 100%;
-	border: 1px solid black;
+	border-style: none;
 	-webkit-box-sizing: border-box; 
   	-moz-box-sizing: border-box;  
   	box-sizing: border-box;       
