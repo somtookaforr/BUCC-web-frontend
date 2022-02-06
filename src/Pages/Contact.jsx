@@ -8,7 +8,7 @@ const Contact = () => {
 	return (
 		<>
 			<Navbar />
-			<body>
+			<body className='contact'>
 				<div className='contact_head'>
 					<img alt="contact_us" className="contact_us_image" src={contactus} />
 					<h1 className="contact_text">Contact Us</h1>
@@ -21,11 +21,11 @@ const Contact = () => {
 							<p className='form-text text-muted'>We do normally get back within 48hrs. Please leave a message.</p>
 						</div>
 
-						<input type="text" name="fname" placeholder='First Name' />
-						<input type="text" name='country' placeholder="Country/Region" />
-						<input type="text" name="department" placeholder="Department" />
-						<input type="text" name="level" placeholder="Level" />
-						<textarea placeholder='Your message'></textarea>
+						<input type="text" name="fname" placeholder='First Name' className='form-control' />
+						<input type="text" name='country' placeholder="Country/Region" className='form-control'/>
+						<input type="text" name="department" placeholder="Department" className='form-control'/>
+						<input type="text" name="level" placeholder="Level" className='form-control'/>
+						<textarea placeholder='Your message' className='form-control'></textarea>
 
 						<button className='btn btn-warning contact_btn'>Send Message</button>
 					</form>
