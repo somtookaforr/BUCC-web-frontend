@@ -1,7 +1,7 @@
 import evt_img from "../Images/event_image_1.jpg";
-import evt_img_2 from "../Images/evt_image_2.png";
-import evt_img_3 from "../Images/evt_image_3.png";
-import evt_img_4 from "../Images/evt_image_4.png";
+import evt_img_2 from "../Images/evt_image_2.jpg";
+import evt_img_3 from "../Images/evt_image_3.jpg";
+import evt_img_4 from "../Images/evt_image_4.jpg";
 const events_data = [
   {
     imgUrl: evt_img_2,

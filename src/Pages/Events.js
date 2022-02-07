@@ -27,7 +27,7 @@ const Events = () => {
           <img alt="events" className="evt_head_img" src={evt_img} />
           <p className="evt_txt">Events</p>
         </div>
-        <div className="container-fluid">
+        <div className="container-fluid ">
           <Event event={currentEvent} />
         </div>
         <Pagination
