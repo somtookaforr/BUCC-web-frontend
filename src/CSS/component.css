@@ -20,7 +20,8 @@
 }
 
 .navbar .nav-link{
-    color: blue !important;
+    color: #20448F !important;
+    font-weight: 600;
 }
 
 .navbar .navBtn .text-white{
