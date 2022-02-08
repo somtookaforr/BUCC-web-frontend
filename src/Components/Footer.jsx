@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Images/bucc-logo2.png'
+import logo from '../Images/bucc-logo2.svg'
 import dribble from '../Images/dribble.png'
 import twitter from '../Images/twitter.png'
 import youtube from '../Images/youtube.png'

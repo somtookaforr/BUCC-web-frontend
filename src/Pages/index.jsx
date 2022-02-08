@@ -2,10 +2,10 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import Carousel from '../Components/Carousel';
 import Footer from '../Components/Footer'
-import img1 from '../Images/img1.png';
-import img2 from '../Images/img2.png';
-import img3 from '../Images/img3.png';
-import google from '../Images/google.png'
+import unlimited from '../Images/unlimited-access.svg';
+import expert from '../Images/expert-teachers.svg';
+import learn from '../Images/learn-anywhere.svg';
+import google from '../Images/google.svg'
 import alumni from '../Images/alumni.png'
 import student from '../Images/student.png'
 import '../CSS/component.css'
@@ -17,9 +17,9 @@ const index = () => {
       <Navbar />
       <Carousel />
       <div className="sec1">
-        <img src={img1} alt="" className='sec1Images'/>
-        <img src={img2} alt="" className='sec1Images'/>
-        <img src={img3} alt="" className='sec1Images'/>
+        <img src={unlimited} alt="" className='sec1Images'/>
+        <img src={expert} alt="" className='sec1Images'/>
+        <img src={learn} alt="" className='sec1Images'/>
       </div>
 
       <div className="sec2">

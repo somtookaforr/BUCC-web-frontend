@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, withRouter } from "react-router-dom";
-import logo from "../Images/bucc-logo.png";
-import buccText from "../Images/bucc-text.png";
+import logo from "../Images/bucc-logo.svg";
+import buccText from "../Images/bucc-text.svg";
 
 const Navbar = () => {
   return (
@@ -46,7 +46,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/" className="nav-link disabled">
                 About Us
               </NavLink>
             </li>
