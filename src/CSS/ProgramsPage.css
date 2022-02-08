@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
 
-*{
+.programs-container{
     box-sizing: border-box;
 }
 
-.carousel{
+.programs-container .carousel{
     background-image: none;
     background-position: center;
     background-size: cover;
@@ -99,7 +99,6 @@ programs-slider-section .slider .carousel-item .text{
 .programs-slider-section .slider .carousel-item .pic img {
     width: 450px;
 }
-
 .programs-slider-section .slider .slide .text{
     flex-direction: column;
     display: flex;
@@ -121,7 +120,7 @@ programs-slider-section .slider .carousel-item .text{
     font-weight: 600;
 }
 .programs-slider-section .slider .slide .text p{
-    font-size: 20px;
+    font-size: 14px;
     font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .others-section{
@@ -204,6 +203,10 @@ programs-slider-section .slider .carousel-item .text{
     }
 }
 @media only screen and (max-width: 768px){
+    .landing-section h1{
+        font-size: 50px;
+    }
+
     .programs-slider-section .slider .slide .pic img{
         width: 380px;
     }
@@ -223,6 +226,14 @@ programs-slider-section .slider .carousel-item .text{
     }
 }
 @media only screen and (max-width: 441px){
+    .landing-section h1{
+        font-size: 30px;
+    }
+
+    .landing-section{
+        height: 50vh;
+    }
+
     .programs-slider-section .slider .slide .pic img{
         width: 300px;
     }
@@ -251,5 +262,12 @@ programs-slider-section .slider .carousel-item .text{
     }
     .programs-slider-section .slider .carousel-item.active, .programs-slider-section .slider .carousel-item{
         padding: 100px 20px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .programs-slider-section .slider .slide .pic img{
+        width: 280px;
+        margin-left: -1.5rem;
     }
 }

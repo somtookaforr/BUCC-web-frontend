@@ -13,9 +13,9 @@ function App() {
         {/* Call them here */}
         <Switch>
           <Route exact path="/" component={Index} />
+          <Route exact path="/programs" component={ProgramsPage} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact}/>
-          <Route exact path="/programs" component={ProgramsPage} />
         </Switch>
       </div>
     </Router>

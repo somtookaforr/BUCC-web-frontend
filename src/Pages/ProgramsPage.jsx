@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import man from '../Images/man-explaining.png';
-import unlimited from '../Images/unlimited-access.png';
-import expert from '../Images/expert-teachers.png';
-import learn from '../Images/learn-anywhere.png';
+import unlimited from '../Images/unlimited-access.svg';
+import expert from '../Images/expert-teachers.svg';
+import learn from '../Images/learn-anywhere.svg';
 import '../CSS/ProgramsPage.css';
 // import '../CSS/Component.css';
 
