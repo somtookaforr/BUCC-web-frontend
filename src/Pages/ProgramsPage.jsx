@@ -16,15 +16,15 @@ const ProgramsPage = () =>{
                     <Navbar />
                 </header>
                 <main>
-                    <section class="landing-section">
-                        <div class="landing">
+                    <section className="landing-section">
+                        <div className="landing">
                             <h1>Our Programs</h1>
                             <div class="color-cover"></div>
                         </div>
                     </section>
-                    <section class="programs-slider-section">
-                        <div class="slider">
-                        <div id="carouselExampleIndicators" className="carousel programHeader slide" data-ride="carousel">
+                    <section className="programs-slider-section">
+                        <div className="slider">
+                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                             <ol className="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -33,7 +33,7 @@ const ProgramsPage = () =>{
                             </ol>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                            <div class="text">
+                                            <div className="text">
                                                 <h3>Computer Science</h3>
                                                 
                                                 <p>
@@ -63,11 +63,11 @@ const ProgramsPage = () =>{
                                                 </p>
                                             </div>
                                             <div class="pic">
-                                                <img class="pic" src={man} />
+                                                <img src={man} alt="Man Explaining"/>
                                             </div>
                                 </div>
                                 <div className="carousel-item ">
-                                            <div class="text">
+                                            <div className="text">
                                                 <h3>Computer Information System</h3>
                                                 
                                                 <p>
@@ -96,12 +96,12 @@ const ProgramsPage = () =>{
                                                 and Systems Engineer, UI/UX Designer.
                                                 </p>
                                             </div>
-                                            <div class="pic">
-                                                <img class="pic" src={man} />
+                                            <div className="pic">
+                                                <img src={man} alt="Man Explaining"/>
                                             </div>
                                 </div>
                                 <div className="carousel-item ">
-                                            <div class="text">
+                                            <div className="text">
                                                 <h3>Software Engineering</h3>
                                                 
                                                 <p>
@@ -130,12 +130,12 @@ const ProgramsPage = () =>{
                                                 and Systems Engineer, UI/UX Designer.
                                                 </p>
                                             </div>
-                                            <div class="pic">
-                                                <img class="pic" src={man} />
+                                            <div className="pic">
+                                                <img src={man} alt="Man Explaining"/>
                                             </div>
                                 </div>
                                 <div className="carousel-item ">
-                                            <div class="text">
+                                            <div className="text">
                                                 <h3>Computer Information Technology</h3>
                                                 
                                                 <p>
@@ -164,8 +164,8 @@ const ProgramsPage = () =>{
                                                 and Systems Engineer, UI/UX Designer.
                                                 </p>
                                             </div>
-                                            <div class="pic">
-                                                <img class="pic" src={man} />
+                                            <div className="pic">
+                                                <img src={man} alt="Man Explaining"/>
                                             </div>
                                 </div>
                             </div>
@@ -182,19 +182,19 @@ const ProgramsPage = () =>{
                         
                         
                     </section>
-                    <section class="others-section">
-                        <div class="unlimited">
-                            <img src={unlimited} />
+                    <section className="others-section">
+                        <div className="unlimited">
+                            <img src={unlimited} alt="Unlimited Access"/>
                         </div>
                         <div class="expert">
-                            <img src={expert}/>
+                            <img src={expert} alt="Expert Teachers"/>
                         </div>
                         <div class="learning">
-                            <img src={learn}/>
+                            <img src={learn} alt="Learn Everywhere"/>
                         </div>
                     </section>
-                    <section class="contact-section">
-                        <div class="text">
+                    <section className="contact-section">
+                        <div className="text">
                             <p>Do you have any questions<br /> 
                             you would love to ask us?</p>
                         </div>
