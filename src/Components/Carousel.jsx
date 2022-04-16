@@ -13,23 +13,17 @@ const Carousel = () => {
                     <div className="carousel-item active">
                             {/* <img src={header} alt="header" className='carousel-img' /> */}
                             {/* <div className="carousel-caption d-none d-md-block"> */}
-                            <h1>Babcock University Computer Club</h1>
-                            <button className="carouselBtn btn btn-transparent border-light px-5">Get Started</button>
-                            
+                            <h1>Babcock University Computer Club</h1>                            
                     </div>
                     <div className="carousel-item">
                             {/* <img src={header} alt="header" className='carousel-img' /> */}
                             {/* <div className="carousel-caption d-none d-md-block"> */}
-                            <h1>Babcock University Computer Club</h1>
-                            <button className="carouselBtn btn btn-transparent border-light px-5">Get Started</button>
-                            
+                            <h1>Babcock University Computer Club</h1>                            
                     </div>
                     <div className="carousel-item">
                             {/* <img src={header} alt="header" className='carousel-img' /> */}
                             {/* <div className="carousel-caption d-none d-md-block"> */}
-                            <h1>Babcock University Computer Club</h1>
-                            <button className="carouselBtn btn btn-transparent border-light px-5">Get Started</button>
-                            {/* </div> */}
+                            <h1>Babcock University Computer Club</h1>                            {/* </div> */}
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

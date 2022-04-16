@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
 
+
+section .programs-slider-section .carousel-control-prev-icon,section .programs-slider-section .carousel-control-next-icon{
+    filter: invert(100%);
+}
+
 .programs-container{
     box-sizing: border-box;
 }
