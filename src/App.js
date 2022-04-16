@@ -2,6 +2,7 @@ import Index from "./Pages/index";
 import Events from "./Pages/Events";
 import Contact  from "./Pages/Contact";
 import ProgramsPage from './Pages/ProgramsPage'
+import About from "./Pages/About";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Import your individual pages here
@@ -16,6 +17,7 @@ function App() {
           <Route exact path="/programs" component={ProgramsPage} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/about" component={About}/>
         </Switch>
       </div>
     </Router>

@@ -15,16 +15,16 @@ const Contact = () => {
 				</div>
 
 				<div className='contact_div'>
-					<form className='contactForm'>
+					<form className='contactForm' method='post' action='mailto:hello@bucomputer.club'>
 						<div className='contact_paragraph'>
 							<p className='p1'>Let's Talk!</p><br/>
 							<p className='form-text text-muted'>We do normally get back within 48hrs. Please leave a message.</p>
 						</div>
 
-						<input type="text" name="fname" placeholder='First Name' className='form-control' />
+						<input type="text" name="fname" placeholder='Full Name' className='form-control' />
 						<input type="text" name='country' placeholder="Country/Region" className='form-control'/>
 						<input type="text" name="department" placeholder="Department" className='form-control'/>
-						<input type="text" name="level" placeholder="Level" className='form-control'/>
+						<input type="number" name="level" placeholder="Level" className='form-control'/>
 						<textarea placeholder='Your message' className='form-control'></textarea>
 
 						<button className='btn btn-warning contact_btn'>Send Message</button>

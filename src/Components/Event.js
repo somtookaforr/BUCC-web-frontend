@@ -12,9 +12,9 @@ const Event = ({ event }) => {
               </div>
               <div className="col-12 col-md-6 cont_div">
                 <p className="sing_txt">{event.text}</p>
-                <a href="/">
+                {/* <a href="/">
                   <button className="evt_but">Click to register</button>
-                </a>
+                </a> */}
               </div>
             </div>
           </>

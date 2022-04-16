@@ -8,12 +8,13 @@ import learn from '../Images/learn-anywhere.svg';
 import google from '../Images/google.svg'
 import alumni from '../Images/alumni.png'
 import student from '../Images/student.png'
+import { Link } from "react-router-dom";
 import '../CSS/component.css'
 import '../CSS/index.css'
 
 
 const index = () => {
-  return <div className='index'>
+  return <div className='index'>        
       <Navbar />
       <Carousel />
       <div className="sec1">
@@ -40,10 +41,10 @@ const index = () => {
                   The mission of this club is to make possible the needs and interests of the computer science and engineering students as well as anybody with an interest in software development.
                   It is not necessary for any club member to be a student of the department nor is knowledge of any programming language required.
                 </p>
-                <button className='sec2Btn btn btn-primary'>Click to learn more</button>
+                <Link to="/about" className="sec2Btn btn btn-primary" aria-current="page"> Click to learn more </Link>
             </div>
         </div>
-      </div>
+      </div> 
 
       <div className="sec3">
         <div id="carousel2ExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -97,7 +98,7 @@ const index = () => {
                         <span className=''>Do you have any question you would love to ask us?</span>
                     </div>
                     <div className="col-12 col-md-6">
-                       <button className='btn sec3Btn mt-3'>Contact us now</button>
+                         <Link to="/contact" className="btn sec3Btn mt-3" aria-current="page"> Contact us now </Link>
                     </div>
                   </div>
                 
@@ -123,7 +124,7 @@ const index = () => {
               <div className="rightCol col-12 col-md-6 align-self-center">
                   <h1 className='sec2Text'><span className='text-primary'>Let’s Build Something</span> <span>  Great Together</span></h1>
                   <p>It is not necessary for any club member to be a student of the department nor is knowledge of any programming language required.</p>
-                  <button className="btn sec4Btn">Lets Talk</button>
+                  <Link to="/contact" className="btn sec4Btn" aria-current="page"> Lets Talk </Link>
               </div>
             </div>
           </div>

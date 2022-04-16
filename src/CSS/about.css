@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
+
+body .about{
+	background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+div.about{
+    background-image: url('../Images/aboutus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    height: 50vh;
+    border-radius: 0 0 82px 82px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(100%);
+}
+
+.about p{
+    padding: 3rem;
+    color: #282938;
+    text-align: left;
+}
+
+div.about h1{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-top: 10rem;
+    font-family:'Raleway', sans-serif;
+}
+
+h3.header{
+    color: #1F5FBC;
+    margin: 5rem 0;
+    font-weight: 700;
+}
+
+.counter{
+    padding: 5rem 1rem;
+    background-color: #1F5FBC;
+    font-family:'Raleway', sans-serif;
+}
+
+.counter .box{
+   background-color: #FFB901; 
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   width: 133px;
+   margin: 0 .5rem
+}
+
+.counter h2{
+    color: white;
+    font-weight: 700;
+}
+
+.datetime{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.excos .col-6{
+    padding-bottom: 2rem;
+}
+
+.excoimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.exconame{
+    color: #1F5FBC;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.carousel{
+    margin-bottom: 10rem;
+}
+
+@media screen and (min-width:768px) {
+    div.about{
+        height: 75vh;
+    }
+
+    .excoimg{
+        width: 200px;
+        height: 200px;
+    }
+
+    .exconame{
+        font-size: 20px;
+    }
+
+    .about p{
+        padding: 4rem;
+    }
+
+    div.about h1{
+        font-size: 50px;
+        padding-top: 18rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .excoimg{
+        width: 300px;
+        height: 300px;
+    }
+
+    .counter{
+        padding: 5rem 1rem;
+    }
+
+    .counter .boxes{
+        margin-left: -3rem;
+    }
+
+    .datetime{
+        font-size: 64px;
+    }
+
+    div.about h1{
+        font-size: 72px;
+        padding-top: 12rem;
+    }
+}
+
+@media screen and (min-width:1130px) {
+    .counter{
+        padding: 5rem 7rem;
+    }
+
+    .counter .boxes{
+        margin-left: -3rem;
+    }
+
+    div.about h1{
+        padding-top: 13rem;
+    }
+}

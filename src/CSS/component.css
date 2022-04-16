@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
 
 
-
 .navbar{
     font-family: 'Roboto', sans-serif;
 }
@@ -52,16 +51,6 @@
     margin-top: -5rem;
 }
 
-.carouselBtn{
-    border-radius: 50px;
-    color: #FFFA76;
-}
-
-.carouselBtn:hover{
-    color: #FF9500;
-}
-
-
 
 footer{
     font-family: 'Poppins', sans-serif;
@@ -73,11 +62,17 @@ footer a{
     color: white;
 }
 
+div.quicklinks > .nav-link{
+    color:white;
+    margin-left: -1rem;
+    margin-top: -.5rem;
+}
+
 .topFooter{
     background-color: #092B5B;
     color: white;
     text-align: left;
-    padding: 4rem 3rem 1rem 3rem;
+    padding: 4rem 0rem 1rem 1rem;
 }
 
 .lowFooter{
@@ -89,6 +84,11 @@ footer a{
 
 .sIcons{
     padding: 0 .5rem 0 .5rem;
+}
+
+.extIcon{
+    height: 21px;
+    width: 38px;
 }
 
 .lfLeft{

@@ -48,7 +48,6 @@ div.index{
     margin-top: 4rem;
 }
 
-
 .sec3 .carousel{
     font-family: 'Raleway', sans-serif;
     background-color: #0C397B;
@@ -56,9 +55,8 @@ div.index{
     color: white;
     padding-top: 5rem;
     padding-bottom: 0rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    border-bottom-right-radius: 0;
+    padding-left: -1rem;
+    padding-right: -1rem;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 100px;
     border-top-right-radius: 30px;
@@ -70,12 +68,13 @@ div.index{
 
 .sec3 .carousel-inner{
     padding-left: 4rem;
-    padding-right: 4rem;
+    margin-left: -2rem;
     font-family:'Raleway', sans-serif;
 }
 
 .sec3 img{
-    margin-left: 3rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
     border: white solid;
     border-radius: 100px;
 }
@@ -155,7 +154,11 @@ div.index{
     color: #1F5FBC;
 }
 
-
+@media only screen and (max-width: 350px){
+    .sec3 img{
+        margin-left: 3rem;
+    }
+}
 
 @media only screen and (min-width: 768px){
     .sec2{
@@ -176,6 +179,10 @@ div.index{
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 18px;
+    }
+
+    .sec3 img{
+        margin-left: 4rem;
     }
 
     .lowSec3{
