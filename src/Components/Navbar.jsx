@@ -4,11 +4,11 @@ import logo from "../Images/bucc-logo.svg";
 import buccText from "../Images/bucc-text.svg";
 
 const Navbar = () => {
-  return (
 
+  return (
     <nav className="navbar navbar-expand-lg navbar-light text-primary bg-white">
       <div className="container-fluid">
-        <NavLink exact to="/" className="navbar-brand" href="#">
+        <NavLink exact to="/" className="navbar-brand">
           <img src={logo} alt="logo" />
           <img src={buccText} alt="Babcock University Computer Club" />
         </NavLink>
@@ -26,23 +26,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink to="/" className="nav-link active" aria-current="page" href="#">
+              <NavLink to="/index" className="nav-link">
                 Home
+               <center><hr /> </center> 
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/programs" className="nav-link active" aria-current="page" href="#">
+              <NavLink to="/programs" className="nav-link">
                 Programs
+                <center><hr /> </center> 
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/events" className="nav-link" href="#">
+              <NavLink to="/events" className="nav-link">
                 Events
+                <center><hr /> </center> 
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink to="/about" className="nav-link">
                 About Us
+                <center><hr /> </center> 
               </NavLink>
             </li>
             <li className="nav-item">

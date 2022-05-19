@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@100;400&display=swap');
+
 
 
 .navbar{
@@ -23,34 +23,21 @@
     font-weight: 600;
 }
 
+.nav-link hr{
+    border: solid #1F5FBC 3px;
+    margin-top: -.1rem;
+    width: 30px;
+    border-radius: 10px;
+    display: none;
+}
+
 .navbar .navBtn .text-white{
     color: white !important;
 }
 
-
-.indexHeader{
-    font-family: 'Raleway', sans-serif;
-    background-image: url(../Images/index-header.png);
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 3rem;
-    border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    padding: 8rem 3rem 8rem 3rem;
+a.nav-link.active hr{
+    display: flex;
 }
-
-.carousel h1{
-    font-size: 30px;
-    color: white;
-    font-weight: 700;
-}
-
-.carousel-img{
-    width: 100vw;
-    height: 100%;
-    margin-top: -5rem;
-}
-
 
 footer{
     font-family: 'Poppins', sans-serif;
@@ -101,60 +88,19 @@ div.quicklinks > .nav-link{
     padding-right: 4rem;
 }
 
-@media only screen and (min-width:200px) and (max-width: 425px){
+@media only screen and (min-width:200px) and (max-width: 430px){
     .lfLeft{
         font-size: 10px;
-        padding-left: 1rem;
+        padding-left: .5rem;
     }
     .rfRight{
         font-size: 10px;
-        padding-right: 1rem;
+        padding-right: .5rem;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .indexHeader{
-        font-family: 'Raleway', sans-serif;
-        background-image: url(../Images//index-header.png);
-        background-position: center;
-        background-size: cover;
-        margin-bottom: 3rem;
-        border-bottom-right-radius: 100px;
-        border-bottom-left-radius: 100px;
-        padding: 15rem 7rem 15rem 7rem;
-    }
-
-    .carousel h1{
-        font-size: 50px;
-    }    
-
-    .carousel-caption{
-        top: 90%;
-        transform: translateY(-50%);
-    }
-
     footer{
         font-size: 14px;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .indexHeader{
-        font-family: 'Raleway', sans-serif;
-        background-image: url(../Images//index-header.png);
-        background-position: center;
-        background-size: 150vw;
-        margin-bottom: 3rem;
-        border-bottom-right-radius: 100px;
-        border-bottom-left-radius: 100px;
-        padding: 15rem 12rem 15rem 12rem;
-    }
-
-    .carousel h1{
-        font-size: 72px;
-    }    
-
-    .carousel-caption{
-        top: 80%;
     }
 }

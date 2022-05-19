@@ -20,7 +20,7 @@ import '../CSS/about.css';
 const About = () => {
 
         // Set the date we're counting down to
-    var countDownDate = new Date("April 17, 2022 12:00:00").getTime();
+    var countDownDate = new Date("July 31, 2022 12:00:00").getTime();
     // Update the count down every 1 second
     var x = setInterval(function() {
 
@@ -52,7 +52,7 @@ const About = () => {
 			<Navbar />
 			<body className='about'>
                 <div className="about">
-                    <h1>About BUCC</h1>
+                    <h1>About Us</h1>
                 </div>
         
                 <p>The Babcock University Computer Club is a student chapter of the University's Computing and Engineering Sciences Department.
@@ -162,7 +162,7 @@ const About = () => {
                 <div className='counter'>
                     <div className="row">
                         <div className="col-12 col-lg-6 align-self-center">
-                        <h2>Our Election is coming up in <span id='dayss'></span> days</h2>
+                        <h2>Our Graduation is coming up in <span id='dayss'></span> days</h2>
                         </div>
                         <div className="col-12 col-lg-6">
                         <div className="container">

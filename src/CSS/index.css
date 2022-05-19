@@ -4,8 +4,49 @@ div.index{
     font-size: 16px;
 }
 
-.sec1Images{
-    padding: 0 2rem 2rem 2rem;
+
+.indexheaderBg{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-image: url('../Images/index-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    border-radius: 0 0 82px 82px;
+    padding: 0 25px;
+}
+
+.indexheaderBg h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.sec1{
+    padding: 6rem 2rem;
+}    
+
+.col-4-lg{
+    padding: 1rem;
+}
+
+.sec1 .unfirst{
+    margin-top: -1rem;
+}
+
+.unlimited,.expert,.learn{
+    color: #1F5FBC;
+    font-size: 20px;
+    line-height: 36.54px;
+    font-weight: 900;
+    padding-top: 20px;
 }
 
 .sec2{
@@ -29,6 +70,13 @@ div.index{
     font-weight: 700;
 }
 
+.sec2 .paragraph{
+    color: #A0A0A0;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}
+
 .sec2 img{
     width: 100vw;
     padding-top: 1rem;
@@ -36,6 +84,12 @@ div.index{
 
 .rightCol{
     padding: 3rem 3rem 2rem 3rem;
+}
+
+.sec2Btn, .sec3Btn, .sec4Btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .sec2Btn{
@@ -48,12 +102,21 @@ div.index{
     margin-top: 4rem;
 }
 
+.sec3 .quotation{
+    border: none;
+}
+
+.sec3 .Testheader{
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .sec3 .carousel{
     font-family: 'Raleway', sans-serif;
     background-color: #0C397B;
     background-image: none;
     color: white;
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 0rem;
     padding-left: -1rem;
     padding-right: -1rem;
@@ -69,12 +132,12 @@ div.index{
 .sec3 .carousel-inner{
     padding-left: 4rem;
     margin-left: -2rem;
-    font-family:'Raleway', sans-serif;
 }
 
 .sec3 img{
     margin-left: 5rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     border: white solid;
     border-radius: 100px;
 }
@@ -85,34 +148,44 @@ div.index{
     border-bottom-right-radius: 100px;
     margin-top: 3rem;
     height: 250px;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     padding: 3rem 3rem 0rem 3rem;
 }
 
 .lowSec3 span{
     font-size: 20px;
+    font-weight: 700;
 }
 
 .sec3Btn{
     border-radius: 50px;
     background-color: #EFB411;
     padding: 1rem;
+    line-height: 19px;
 }
 
 .alumniName{
     color: #FFC000;
     font-weight: 700;
-    font-size: larger;
+    font-size: 23px;
 }
 
 .alumniYear{
     font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5%;
+    margin-top: -1.5rem;
 }
 
 
 .sec4{
     padding-bottom: 33rem;
+}
+
+.outerSec4, .innerSec4{
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .outerSec4{
@@ -121,8 +194,9 @@ div.index{
 
 .innerSec4{
     background-image: url(../Images/Path3.png);
-    height: 400px;
+    height: 1000px;
     margin-top: 8rem;
+    margin-bottom: -35rem;
 }
 
 .studentImg img{
@@ -161,6 +235,18 @@ div.index{
 }
 
 @media only screen and (min-width: 768px){
+    .indexheaderBg{
+        padding: 0 100px;
+    }
+
+    .indexheaderBg h1{
+        font-size: 50px;
+    }
+
+    .sec1{
+        padding: 6rem;
+    }
+
     .sec2{
         background-image: url(../Images/Element.png);
         background-repeat: no-repeat;
@@ -169,6 +255,11 @@ div.index{
 
     .sec2 img{
         width: 50vw;
+    }
+
+    .sec2 .paragraph{
+        padding-bottom: 2rem;
+        margin-top: -3rem;
     }
     
     .rightCol{
@@ -179,6 +270,9 @@ div.index{
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5%;
     }
 
     .sec3 img{
@@ -191,15 +285,12 @@ div.index{
     }
 
     .lowSec3 span{
-        font-size: 30px;
+        font-size: 35px;
+        line-height: 22px;
     }
 
     .sec4{
         padding-bottom: 10rem;
-    }
-    
-    .innerSec4{
-        height: 400px;
     }
     
     .studentImg img{ 
@@ -214,29 +305,65 @@ div.index{
 }
 
 @media only screen and (min-width: 1024px){
+    div.index{
+        overflow-y: hidden;
+    }
+
+    .indexheaderBg h1{
+        font-size: 72px;
+    }
+
+    .indexheaderBg{
+        height: 75vh;
+    }
+
+    .sec1{
+        padding: 6rem 9rem;
+    }    
+
     .sec3 .carousel-inner{
         padding-left: 4rem;
         padding-right: 4rem;
     }
 
     .lowSec3{
-        padding-left: 12rem;
-        padding-right: 12rem;
+        padding-top: 5rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
-    
+
+    .sec4{
+        padding-bottom: 13.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
     .innerSec4{
-        height: 650px;
+        height: 1100px;
     }
 }
 
 @media only screen and (min-width: 1440px){
+    .indexheaderBg{
+        padding: 0 300px;
+    }
+
     .sec3 .carousel-inner{
         padding-left: 10rem;
         padding-right: 10rem;
     }
 
-
     .innerSec4{
-        height: 800px;
+        height: 1200px;
+    }
+
+    .sec4{
+        padding-bottom: 14.5rem;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    .innerSec4{
+        height: 1800px;
     }
 }

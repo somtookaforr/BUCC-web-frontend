@@ -6,7 +6,6 @@ import unlimited from '../Images/unlimited-access.svg';
 import expert from '../Images/expert-teachers.svg';
 import learn from '../Images/learn-anywhere.svg';
 import '../CSS/ProgramsPage.css';
-// import '../CSS/Component.css';
 
 const ProgramsPage = () =>{
 

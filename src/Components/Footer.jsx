@@ -33,7 +33,7 @@ const Footer = () => {
                 <Link to="/programs" className="nav-link" aria-current="page"> Programs </Link>
                 <Link to="/about" className="nav-link" aria-current="page"> About Us </Link>
                 <Link to="/contact" className="nav-link" aria-current="page"> Contact Us </Link>
-                <Link to="/" className="nav-link" aria-current="page"> Become a Contributor </Link>
+                <Link to="/contact" className="nav-link" aria-current="page"> Become a Contributor </Link>
               </div>
               </div>
               <div className="col-6 col-md-3">
@@ -54,8 +54,7 @@ const Footer = () => {
         <p><small>
             <span className='lfLeft'>All Right Reserved | BUCC 2022</span>
             <span className='rfRight'>
-                <span className="text-light">Privacy Policy</span>
-                <span className="text-light">Site Credit</span>
+                <span className="text-light">Site Credit : BUCC Dev Team</span>
             </span>
             
         </small></p>
