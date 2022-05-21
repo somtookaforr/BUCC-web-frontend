@@ -3,18 +3,17 @@ import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
 import blessed from '../Images/excos/blessed.jpg'
 import esther from '../Images/excos/esther.jpg'
-import dada from '../Images/excos/dara.png'
+import dada from '../Images/excos/dara.jpg'
 import patrick from '../Images/excos/patrick.jpg'
 import bernice from '../Images/excos/Bernice.jpg'
 import sharon from '../Images/excos/sharon.jpg'
 import wetti from '../Images/excos/wetti.jpeg'
 import esthersports from '../Images/excos/Esther-sports.jpg'
-import david from '../Images/excos/david.jpeg'
+import david from '../Images/excos/david.jpg'
 import yoma from '../Images/excos/yoma.jpeg'
 import estherpro from '../Images/excos/esther-pro.jpeg'
-import samuel from '../Images/excos/samuel.JPEG'
-
-import timi from '../Images/excos/Timi.png'
+import samuel from '../Images/excos/samuel.jpg'
+import timi from '../Images/excos/Timi.jpg'
 import '../CSS/about.css';
 
 const About = () => {

@@ -39,9 +39,10 @@ const Footer = () => {
               <div className="col-6 col-md-3">
                 Contact Us <br /><br />
 
-                <a href="tel:+2340000000000">+234 000 0000 000</a> <br />
-                <a href="tel:+2340000000000">+234 000 0000 000</a> <br />
-                <a href="mailto:Info@bucc.club">Info@bucc.club</a> 
+                <a href="tel:+2348163513389">+234 816 351 3389 -Sponsor</a><br />
+                <a href="tel:+2347038022071">+234 703 802 2071 -Dean</a><br />
+                <a href="tel:+2349030609267">+234 903 060 9267</a> -President<br />
+                <a href="Hello@bucomputer.club">Hello@bucomputer.club</a> 
 
               </div>
               <div className="col-6 col-md-3">
