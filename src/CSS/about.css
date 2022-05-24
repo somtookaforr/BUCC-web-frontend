@@ -19,17 +19,32 @@ div.about{
 }
 
 .about p{
-    padding: 3rem;
+    padding: 2rem;
     color: #282938;
     text-align: left;
 }
 
-div.about h1{
+.indexheaderBg{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-image: url('../Images/aboutus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    border-radius: 0 0 82px 82px;
+    padding: 0 25px;
+}
+
+.indexheaderBg h1{
     font-weight: 700;
     font-size: 30px;
-    color: white;
-    padding-top: 10rem;
-    font-family:'Raleway', sans-serif;
 }
 
 h3.header{
@@ -85,8 +100,12 @@ h3.header{
 }
 
 @media screen and (min-width:768px) {
-    div.about{
-        height: 75vh;
+    .indexheaderBg{
+        padding: 0 100px;
+    }
+
+    .indexheaderBg h1{
+        font-size: 50px;
     }
 
     .excoimg{
@@ -101,14 +120,17 @@ h3.header{
     .about p{
         padding: 4rem;
     }
-
-    div.about h1{
-        font-size: 50px;
-        padding-top: 18rem;
-    }
 }
 
 @media screen and (min-width:1024px) {
+    .indexheaderBg h1{
+        font-size: 72px;
+      }
+    
+      .indexheaderBg{
+        height: 75vh;
+      }
+
     .excoimg{
         width: 300px;
         height: 300px;
@@ -125,11 +147,6 @@ h3.header{
     .datetime{
         font-size: 64px;
     }
-
-    div.about h1{
-        font-size: 72px;
-        padding-top: 12rem;
-    }
 }
 
 @media screen and (min-width:1130px) {
@@ -139,9 +156,5 @@ h3.header{
 
     .counter .boxes{
         margin-left: -3rem;
-    }
-
-    div.about h1{
-        padding-top: 13rem;
     }
 }

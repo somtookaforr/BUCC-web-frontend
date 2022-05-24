@@ -50,7 +50,7 @@ const About = () => {
 		<>
 			<Navbar />
 			<body className='about'>
-                <div className="about">
+                <div className="indexheaderBg">
                     <h1>About Us</h1>
                 </div>
         
