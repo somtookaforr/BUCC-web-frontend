@@ -3,6 +3,7 @@ import Events from "./Pages/Events";
 import Contact  from "./Pages/Contact";
 import ProgramsPage from './Pages/ProgramsPage'
 import About from "./Pages/About";
+import ScrollToTop from './scroll';
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
@@ -10,6 +11,7 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL} >
       <div className="App">
+      <ScrollToTop />
         <Switch>
           <Route exact path="/" component={Index} />
           <Route exact path="/index" component={Index} />
