@@ -23,10 +23,6 @@ const Events = () => {
       <Navbar />
 
       <div>
-        {/* <div className="evt_head">
-          <img alt="events" className="evt_head_img" src={evt_img} />
-          <p className="evt_txt">Events</p>
-        </div> */}
         <div className="evtheaderBg">
           <h1>Events</h1>
         </div>

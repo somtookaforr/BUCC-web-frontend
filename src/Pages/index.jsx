@@ -95,10 +95,10 @@ const index = () => {
                 </div>
                 <div className="lowSec3">
                   <div className="row">
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 sec3Col1">
                         <span className=''>Do you have any question you would love to ask us?</span>
                     </div>
-                    <div className="col-12 col-md-6">
+                    <div className="col-12 col-md-6 sec3Col2">
                          <Link to="/contact" className="btn sec3Btn mt-3" aria-current="page"> Contact us now </Link>
                     </div>
                   </div>

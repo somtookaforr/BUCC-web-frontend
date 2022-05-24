@@ -10,17 +10,17 @@ import { Link } from 'react-router-dom';
 const ProgramsPage = () =>{
 
         return(
-            <div class="programs-container">
+            <div className="programs-container">
                 <header>
                     <Navbar />
                 </header>
                 <main>
-                    <section className="landing-section">
-                        <div className="landing">
+
+                    <span className="bgColor">
+                    <section className="landingheaderBg">
                             <h1>Our Programs</h1>
-                            <div class="color-cover"></div>
-                        </div>
                     </section>
+
                     <section className="programs-slider-section">
                         <div className="slider">
                         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
@@ -58,13 +58,13 @@ const ProgramsPage = () =>{
                                                     Computer Programmer, Hardware and Systems Engineer, UI/UX Designer.
                                                 </p>
                                             </div>
-                                            <div class="pic">
+                                            <div className="pic">
                                                 <img src={man} alt="Man Explaining"/>
                                             </div>
                                 </div>
                                 <div className="carousel-item ">
                                             <div className="text">
-                                                <h3>Computer Technoloy</h3>
+                                                <h3>Computer Technology</h3>
                                                 
                                                 <p>
                                                 Computer technology combines the hardware of computers 
@@ -218,6 +218,8 @@ const ProgramsPage = () =>{
                         
                         
                     </section>
+                    </span>
+
                     <section className="others-section">
                     <div className="sec1">
                         <div className="row">
@@ -242,6 +244,7 @@ const ProgramsPage = () =>{
                     </div>
 
                     </section>
+
                     <section className="contact-section">
                         <div className="text">
                             <p>Do you have any questions<br /> 
