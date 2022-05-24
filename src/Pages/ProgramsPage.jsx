@@ -6,7 +6,7 @@ import unlimited from '../Images/unlimited-access.svg';
 import expert from '../Images/expert-teachers.svg';
 import learn from '../Images/learn-anywhere.svg';
 import '../CSS/ProgramsPage.css';
-
+import { Link } from 'react-router-dom';
 const ProgramsPage = () =>{
 
         return(
@@ -247,7 +247,7 @@ const ProgramsPage = () =>{
                             <p>Do you have any questions<br /> 
                             you would love to ask us?</p>
                         </div>
-                        <button>Contact us now!</button>
+                        <button><Link to="/contact">Contact us now!</Link> </button>
                     </section>
                     
                 </main>
