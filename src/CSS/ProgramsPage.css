@@ -22,10 +22,10 @@ section .programs-slider-section .carousel-control-prev-icon,section .programs-s
 .landing-section{
     width: 100%;
     position: relative;
-    height: 75vh;
+    min-height: 50vh;
     background-image: url('../Images/programs-landing.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center 30%;
     display: flex;
     flex-wrap: wrap;
@@ -34,14 +34,19 @@ section .programs-slider-section .carousel-control-prev-icon,section .programs-s
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     border-radius: 0 0 82px 82px;
-    padding: 0 25px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    /* padding: 0 25px; */
+}
+.landing-section::before{
+    visibility: hidden;
 }
 .landing-section::after{
     content: '';
     width: 100%;
     background-color: rgba(196, 196, 196, 0.2);
     position: absolute;
-    top: 0%;left: 0;right: 0;bottom: 0;
+    top: 0;left: 0;right: 0;bottom: 0;
     z-index: -3;
 }
 .landing-section h1{
@@ -51,7 +56,7 @@ section .programs-slider-section .carousel-control-prev-icon,section .programs-s
 .programs-slider-section{
     width: 100%;
     background-color: rgba(196, 196, 196, 0.2);
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
 }
@@ -77,6 +82,7 @@ section .programs-slider-section .carousel-control-prev-icon,section .programs-s
     font-family: Poppins, Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } */
 .programs-slider-section .slider .carousel-item.active, .programs-slider-section .slider .carousel-item{
+    text-align: left;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -94,7 +100,7 @@ section .programs-slider-section .carousel-control-prev-icon,section .programs-s
     align-items: center;
     justify-content: center;
 }
-programs-slider-section .slider .carousel-item .text{
+.programs-slider-section .slider .carousel-item .text{
     width: 60%;
 }
 .programs-slider-section .slider .carousel-item .pic{
@@ -126,9 +132,14 @@ programs-slider-section .slider .carousel-item .text{
 }
 .programs-slider-section .slider .slide .text p{
     font-size: 14px;
+    /* width: 100%; */
     font-family: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .others-section{
+    color: #282938;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* .others-section{
     width: 100%;
     min-height: 50vh;
     padding: 50px;
@@ -136,19 +147,17 @@ programs-slider-section .slider .carousel-item .text{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    /* background-color: rosybrown; */
 }
 .others-section div{
     height: 250px;
     margin: 25px;
-    /* background-color: antiquewhite;  */
     display: flex;
     align-items: center;
-}
-.others-section div img{
+} */
+/* .others-section div img{
     height: 220px;
     width: 280px;
-}
+} */
 .contact-section{
     width: 100%;
     min-height: 40vh;
@@ -164,6 +173,7 @@ programs-slider-section .slider .carousel-item .text{
 .contact-section .text p{
     color: #fff;
     font-size: 35px;
+    font-weight: 700;
     font-family: Raleway, Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .contact-section button{
@@ -175,6 +185,16 @@ programs-slider-section .slider .carousel-item .text{
     font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     color: #07101C;
+    text-decoration: none;
+}
+.contact-section button a{
+    text-decoration: none;
+    color: #07101C;
+}
+@media screen and (min-width: 1024px){
+    .landing-section {
+        height: 75vh;
+    }
 }
 @media only screen and (max-width: 1180px){
     /* .programs-slider-section .slider .slide{
@@ -182,7 +202,7 @@ programs-slider-section .slider .carousel-item .text{
     } */
     .programs-slider-section .slider .carousel-item{
         flex-direction: column;
-        padding: 100px 50px;
+        padding: 50px 50px;
     }
     .programs-slider-section .slider .carousel-item .text{
         margin-bottom: 50px;
@@ -190,8 +210,26 @@ programs-slider-section .slider .carousel-item .text{
     }
     
 }
+@media only screen and (max-height: 855px){
+    .landing-section::before{
+        visibility: visible;
+        content: '';
+        width: 100%;
+        height: 50px;
+        background-color: rgba(57, 91, 115, 50);
+        position: absolute;
+        top: 0;left: 0;right: 0;bottom: 0;
+        z-index: -2;
+
+    }
+}
 @media only screen and (max-width: 991px){
-    
+    .landing-section{
+        background-size: cover;
+    }
+    .programs-slider-section .slider .slide .text p{
+        width: 100%;
+    }
     .programs-slider-section .slider .slide .pic img{
         width: 450px;
     }
@@ -201,13 +239,19 @@ programs-slider-section .slider .carousel-item .text{
     }
     .programs-slider-section .slider .carousel-item div{
         width: 100%;
-        margin: 50px 0;
+        /* margin: 50px 0; */
     }
     .programs-slider-section .slider .carousel-item.active, .programs-slider-section .slider .carousel-item{
-        padding: 100px 50px;
+        padding: 50px 50px;
     }
 }
+/* @media only screen and (min-width: 768px){
+    .landing-section{
+        height: 75vh !important;
+    }
+} */
 @media only screen and (max-width: 768px){
+    
     .landing-section h1{
         font-size: 50px;
     }
@@ -227,7 +271,7 @@ programs-slider-section .slider .carousel-item .text{
         margin: 50px 0;
     }
     .programs-slider-section .slider .carousel-item.active, .programs-slider-section .slider .carousel-item{
-        padding: 100px 50px;
+        padding: 0 50px;
     }
 }
 @media only screen and (max-width: 441px){
@@ -266,7 +310,7 @@ programs-slider-section .slider .carousel-item .text{
         margin: 50px 0;
     }
     .programs-slider-section .slider .carousel-item.active, .programs-slider-section .slider .carousel-item{
-        padding: 100px 20px;
+        padding: 0 20px;
     }
 }
 
