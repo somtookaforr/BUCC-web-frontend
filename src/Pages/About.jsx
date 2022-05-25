@@ -75,7 +75,7 @@ const About = () => {
                                 <div className="row">
                                     <div className="col-6 col-md-4">
                                         <img src={blessed} alt="img" className='excoimg'/><br />
-                                        <span className='exconame'>Blessed Madukouma</span> <br />
+                                        <span className='exconame'>Madukouma Blessed</span> <br />
                                         <span>Executive President</span>
                                     </div>
                                     <div className="col-6 col-md-4">
