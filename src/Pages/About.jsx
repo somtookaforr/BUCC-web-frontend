@@ -80,7 +80,7 @@ const About = () => {
                                     </div>
                                     <div className="col-6 col-md-4">
                                         <img src={esther} alt="img" className='excoimg'/><br />
-                                        <span className='exconame'>Abiola Esther Adebiyi</span> <br />
+                                        <span className='exconame'>Abiola Esther</span> <br />
                                         <span>Vice President Administrative</span>
                                     </div>
                                     <div className="col-6 col-md-4">
