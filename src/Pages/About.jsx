@@ -16,10 +16,12 @@ import samuel from '../Images/excos/samuel.jpg'
 import timi from '../Images/excos/Timi.jpg'
 import '../CSS/about.css';
 
+
+
 const About = () => {
 
         // Set the date we're counting down to
-    var countDownDate = new Date("July 31, 2022 12:00:00").getTime();
+    var countDownDate = new Date("July 31, 2022 24:00:00").getTime();
     // Update the count down every 1 second
     var x = setInterval(function() {
 
@@ -43,7 +45,16 @@ const About = () => {
         document.getElementById("hours").innerHTML = ("0"+hours).slice(-2)
         document.getElementById("minutes").innerHTML = ("0"+minutes).slice(-2)
         document.getElementById("seconds").innerHTML = ("0"+seconds).slice(-2)
-  
+        
+        if (distance < 0) {
+            clearInterval(x);
+            var dayss, days, hours, minutes, seconds = 0;
+            document.getElementById("cdtext").innerHTML = "We just graduated! 🥳🥳";
+            document.getElementById("days").innerHTML = "0";
+            document.getElementById("hours").innerHTML = "0";
+            document.getElementById("minutes").innerHTML = "0";
+            document.getElementById("seconds").innerHTML = "0";
+          }
     }, 1000);
 
 	return (
@@ -161,7 +172,7 @@ const About = () => {
                 <div className='counter'>
                     <div className="row">
                         <div className="col-12 col-lg-6 align-self-center">
-                        <h2>Our Graduation is coming up in <span id='dayss'></span> days</h2>
+                        <h2 id='cdtext'>Our Graduation is coming up in <span id='dayss'></span> days</h2>
                         </div>
                         <div className="col-12 col-lg-6">
                         <div className="container">
